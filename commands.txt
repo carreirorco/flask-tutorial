@@ -1,0 +1,7 @@
+# To prepare de environment
+python3 -m venv env
+pip install flask
+
+# To execute de project
+export FLASK_APP=hello
+flask run
